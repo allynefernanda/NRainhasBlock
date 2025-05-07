@@ -12,8 +12,8 @@ A solução é implementada utilizando DFS para explorar as possíveis colocaç�
 
 - **Gerar tabuleiros com bloqueios aleatórios**: O tabuleiro pode ter casas bloqueadas aleatoriamente, de acordo com um percentual definido.
 - **Solução com DFS**: Utiliza DFS para resolver o problema das N-Rainhas, levando em consideração as casas bloqueadas.
-- **Heurísticas de busca**: O algoritmo de DFS usa heurísticas para ordenar as colunas a serem verificadas, levando em consideração bloqueios próximos e a posição central do tabuleiro.
-- **Limite de tempo**: O algoritmo pode ser configurado para ter um limite de tempo, interrompendo a busca se uma solução não for encontrada dentro do período.
+- **Heurísticas de busca**: O algoritmo de DFS usa heurísticas para ordenar as colunas a serem verificadas, priorizando as com menos opções válidas para otimizar o processo.
+- **Limite de tempo**: O algoritmo pode ser configurado para ter um limite de tempo, interrompendo a busca se uma solução não for encontrada dentro do período (500 segundos, por padrão).
 
 ## Requisitos
 
