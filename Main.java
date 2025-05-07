@@ -11,7 +11,7 @@ public class Main {
     public static void testarTamanho(int n, Integer seed) {
         System.out.println("\nTestando tabuleiro " + n + "x" + n + " com bloqueios aleatórios");
 
-        double perc = percentualAleatorio(seed, 0.07, 0.13);
+        double perc = percentualAleatorio(seed, 0.07, 0.09);
         int totalCasas = n * n;
         int numBloqueios = (int) (perc * totalCasas);
 
@@ -44,7 +44,7 @@ public class Main {
     }
 
     public static void main(String[] args) {
-        int[] tamanhos = {8, 16, 32, 64, 128};
+        int[] tamanhos = {8, 16, 32, 64,70,84,99,100, 128};
         Integer seed = 42;
 
         for (int n : tamanhos) {

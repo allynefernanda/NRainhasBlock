@@ -74,7 +74,7 @@ public class NRainhasComBloqueios {
         for (int i = 0; i < n; i++) {
             for (int j = 0; j < n; j++) {
                 if (blocked[i][j]) System.out.print(" X ");
-                else if (queens[j] == i) System.out.print(" R ");
+                else if (queens[j] == i) System.out.print(" '\\u265B' ");
                 else System.out.print(" . ");
             }
             System.out.println();
